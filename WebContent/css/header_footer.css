@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+
+.headerBody {
+	padding-top: 70px;
+}
+
+/* .jumbotron { */
+/* 	color: #2c3e50; */
+/* 	background: #ecf0f1; */
+/* } */
+.navbar-inverse {
+	background: #2c3e50;
+	color: gold;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+.navbar-inverse a:hover {
+	background-color: #ddd;
+	color: pink;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+/* .navbar-inverse .navbar-nav>li>a.active { */
+/* 	background-color: #qqq; */
+/* 	color: white */
+/* } */
+
+#footer {
+	padding-left: 30px;
+	/* 	padding-right: 30px; */
+	background: #2c3e50;
+	color: white;
+}
+
+#contentBox .column {
+	float: left;
+	margin: 25px;
+	width: 30%;
+}
+
+/* Clear floats after the columns */
+#contentBox:after {
+	content: "";
+	display: table;
+	clear: both;
+}

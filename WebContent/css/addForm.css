@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+
+table {
+	border-collapse: collapse;
+	border-bottom: 1px solid gray;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	width: 72%;
+}
+
+.addForm {
+	width: 100%;
+	margin: auto;
+	padding: 25px;
+}
+
+table {
+	border-style: none;
+	width: 50%;
+	border-collapse: separate;
+	border-spacing: 5px;
+}
+
+.tableButton {
+	border-radius: 5px;
+	padding: 5px 10px;
+	border: 1px solid #2c3e50;
+	padding: 5px 10px;
+	background: #849fbb;
+	background: -webkit-gradient(linear, left top, left bottom, from(#849fbb),
+		to(#2c3e50));
+	background: linear-gradient(to bottom, #849fbb 0%, #2c3e50 100%);
+	color: #fff;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.inputName {
+	text-transform:capitalize;
+}
